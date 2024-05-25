@@ -116,7 +116,18 @@ ssl4eo_l_oli_sr, ssl4eo_l_tirs_toa, ssl4eo_l_tm_toa: 2846
 ): 6307
 ```
 
-Additionally we have 251079 parallel views for S1-GRD, S2-L1C and S2-L2A. ETM-SR, ETM-TOA have 250000 parallel views. 
+### Parallel Views
+
+```bash
+S1-GRD, S2-L1C and S2-L2A: 251079
+ETM-SR, ETM-TOA: 250000
+ETM-TOA, ETM-SR and TM-TOA: 127790
+OLI-SR and OLI-TIRS-TOA: 100115
+OLI-TIRS-TOA and TM-TOA: 108706
+OLI-SR and TM-TOA: 103567
+ETM-SR/ETM-TOA and OLI-SR: 151335
+```
+
 
 ## Data
 Each of the above folders has atleast 8 files. In most cases, there might be additional metadata file which contains details about the original satellite metadata. The file details are as given below:
