@@ -35,7 +35,7 @@ Each of the above folders has atleast 8 files and at max 12 files. All folders h
 All input files are of shape 224, 224. Additionally, Lee-filtering based speckle fltering has been done for Sentinel1 products have been and Sentinel2 products have been scaled according to information provided [here](https://forum.sentinel-hub.com/t/normalization-of-sentinel-data-for-ml-downstream/5459/2). Sentinel data has additionally been scaled to be between 0 and 255. Landsat data is already in between that range. No normalization has been applied to the input data.
 
 ## Data Access
-Details for AWS access can be found [here](aws s3 ls --no-sign-request s3://ssl4eo-s12-landsat-combined/).
+Details for AWS access can be found [here](https://registry.opendata.aws/ssl4eo-multi-product-data/) using **aws s3 ls --no-sign-request s3://ssl4eo-s12-landsat-combined/**.
 
 To access the above via cli, ```awscli``` needs to be installed on the system:
 
